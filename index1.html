@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(82, 161, 161);
+    }
+    .container{
+        display:grid;
+        grid-template-areas: "image image image title title" 
+                               "content content content content content"
+                               "content content content content content"
+                               "fotter fotter fotter fotter fotter ";
+    height: 100vh;
+    border:2px solid black;
+        }
+
+.box1{
+
+    border:2px solid black;
+    grid-area:image;
+    background-color: rgb(147, 229, 229);
+    height: 33vh;
+} 
+.box2{
+border:2px solid black;
+grid-area:title;
+background-color: rgb(65, 139, 139);
+height: 33vh;
+font-family:system-ui, '-apple-syste', 'BlinkMacSystemFont', 'Segoe UI';
+text-align: end;
+} 
+ h1{
+    text-align: end;
+   margin-top: 124px;
+}
+.imgC{
+    border-radius: 30px;
+    width: 70px;
+    width: 177px;
+    margin-left: 51px;
+}
+.box3{
+    grid-area: content;
+    border:2px solid black;
+    height:65vh;
+}
+
+p{
+    padding: 20px;
+}
+
+.box4{
+    grid-area: fotter;   
+    height:12vh;
+    align-content: last baseline;
+}
+ul{
+    margin-left:40px;
+}
+    
+    </style>
+<body>
+    <div class="container">
+        <div class="box1"><img src="apj.jpg" class="imgC" alt="img not found"/></div>
+        <div class="box2"><h1>APJ abdul kalam </h1>
+        <h6> From 1931-2020</h6></div>
+
+        <div class="box3">
+            <h2>About APJ ABDUL KALAM</h2>
+            <p>
+                Born on 15th October 1931 at Rameswaram in Tamil Nadu, Dr. Avul Pakir Jainulabdeen Abdul Kalam, specialized in Aeronautical Engineering from Madras Institute of Technology. Dr. Kalam made significant contribution as Project Director to develop India's first indigenous Satellite Launch Vehicle (SLV-III) which successfully injected the Rohini satellite in the near earth orbit in July 1980 and made India an exclusive member of Space Club. He was responsible for the evolution of ISRO's launch vehicle programme, particularly the PSLV configuration. After working for two decades in ISRO and mastering launch vehicle technologies, Dr. Kalam took up the responsibility of developing Indigenous Guided Missiles at Defence Research and Development Organisation as the Chief Executive of Integrated Guided Missile Development Programme (IGMDP). He was responsible for the development and operationalisation of AGNI and PRITHVI Missiles and for building indigenous capability in critical technologies through networking of multiple institutions. He was the Scientific Adviser to Defence Minister and Secretary, Department of Defence Research & Development from July 1992 to December 1999. During this period he led to the weaponisation of strategic missile systems and the Pokhran-II nuclear tests in collaboration with Department of Atomic Energy, which made India a nuclear weapon State. He also gave thrust to self-reliance in defence systems by progressing multiple development tasks and mission projects such as Light Combat Aircraft.
+            </p>
+            <h3> Keypoints</h3>
+            <ul>
+                <li> Lorem ipsum dol</li>
+                <li> Lorem ipsum dol</li>
+                <li> Lorem ipsum dol</li>
+                <li> Lorem ipsum dol</li>
+            </ul>
+           </div>
+        <div class="box4">To know more...</div>
+    </div>
+</body>
+</html>
